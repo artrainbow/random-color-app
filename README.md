@@ -1,7 +1,10 @@
 # Random-color-app
 
 Just tap anywhere on the screen
+
 Just do a long press to run animation
+
+![Video](docs/SimulatorScreenRecording.gif)
 
 # Requirements
 
