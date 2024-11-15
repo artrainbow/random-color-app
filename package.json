@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "doctor": "npx expo-doctor",
-    "prebuild": "npx expo prebuild",
     "start": "npx expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "start:dev:ios": "npx expo start --dev-client --ios --clear",
     "start:expo:ios": "npx expo start --ios",
+    "doctor": "npx expo-doctor",
+    "prebuild": "npx expo prebuild",
     "ts:check": "yarn tsc --pretty --noEmit",
-    "android": "expo run:android",
-    "ios": "expo run:ios"
+    "eslint:fix": "yarn eslint . --fix",
+    "format:prettier": "yarn prettier --write ."
   },
   "dependencies": {
     "expo": "~52.0.7",
@@ -21,7 +23,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@types/lodash": "^4.17.13",
     "@types/react": "~18.3.12",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-native": "^4.1.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.6.3"
   },
   "private": true

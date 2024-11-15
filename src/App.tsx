@@ -1,13 +1,13 @@
-import React from 'react';
-import {CustomTextView} from './components/CustomText'
-import {AnimatedBackgroundView} from "./components/AnimatedBackground";
+import React from 'react'
+import { CustomTextView } from './components/CustomText'
+import { AnimatedBackgroundView } from './components/AnimatedBackground'
 
 const App = () => {
   return (
     <AnimatedBackgroundView>
-      <CustomTextView/>
+      <CustomTextView />
     </AnimatedBackgroundView>
   )
-};
+}
 
-export default App;
+export default App
