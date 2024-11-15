@@ -1,0 +1,28 @@
+{
+  "name": "random-color-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "doctor": "npx expo-doctor",
+    "prebuild": "npx expo prebuild",
+    "start": "npx expo start",
+    "start:dev:ios": "npx expo start --dev-client --ios --clear",
+    "start:expo:ios": "npx expo start --ios",
+    "ts:check": "yarn tsc --pretty --noEmit",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "~52.0.7",
+    "expo-status-bar": "~2.0.0",
+    "lodash": "^4.17.21",
+    "react": "18.3.1",
+    "react-native": "0.76.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.6.3"
+  },
+  "private": true
+}
